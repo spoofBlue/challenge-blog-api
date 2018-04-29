@@ -1,0 +1,15 @@
+{
+  "name": "challenge-blog-api",
+  "version": "1.0.0",
+  "description": "For thinkful's challenge.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Cory",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.2.1"
+  }
+}
