@@ -9,7 +9,7 @@ const blogPostsRouter = require(`./blogPostsRouter`);
 const app = express();
 
 // Middleware
-app.use(morgan);
+app.use(morgan(`common`));
 
 // Routing
 app.use(`/blog-posts`, blogPostsRouter);
